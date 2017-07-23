@@ -559,7 +559,8 @@ section h3.section-subheading {
 }
 
 .team-member .team-link .team-hover {
-  background: rgba(254, 209, 54, 0.9);
+/*  background: rgba(254, 209, 54, 0.9);*/
+  box-shadow: rgba(254, 209, 54, 0.9);
   position: absolute;
   width: 250px;
   height: 250px;

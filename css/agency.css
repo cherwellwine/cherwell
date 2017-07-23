@@ -550,6 +550,47 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
+
+.team-member .team-link {
+  display: block;
+  position: relative;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.team-member .team-link .team-hover {
+  background: rgba(254, 209, 54, 0.9);
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  opacity: 0;
+
+  border-radius: 50%;
+/*  overflow: hidden;*/
+
+  transition: all ease 0.5s;
+
+}
+.team-member .team-hover:hover {
+  opacity: 1;
+}
+
+.team-member .team-hover .team-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 40%;
+  margin-top: 0px;
+  color: white;
+}
+.team-member .team-hover .team-hover-content i {
+  margin-top: 0px;
+}
+
+
+
 aside.clients img {
   margin: 50px auto;
 }

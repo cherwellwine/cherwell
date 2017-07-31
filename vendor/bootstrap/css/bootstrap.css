@@ -1588,11 +1588,11 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 320px) {
+/*@media (min-width: 320px) {
   .container {
     width: 310px;
   }
-}
+}*/
 
 @media (min-width: 768px) {
   .container {
